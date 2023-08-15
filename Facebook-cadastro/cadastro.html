@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Facebook cadastro</title>
+</head>
+<body>
+    <div class="main-cadastro">
+
+        
+
+            <div class="center-cadastro">
+                <h1 class="text-cadastro">Cadastre-se</h1>
+                <h4>É rapido e fácil</h4>
+            </div>
+
+            <div class = "textfield">
+                <label for="usuario">Usuário</label>
+                <input id= "usuario" type="text" name = "usuario" placeholder="Usuário">
+            </div>
+
+            <div class = "textfield">
+                <label for="email">Email</label>
+                <input id= "email" type="text" name = "email" placeholder="E-mail">
+            </div>
+        
+            <div class = "textfield">
+                <label for="password">Password</label>
+                <input id= "password" type="password" name = "senha" placeholder="Password">
+            </div>
+
+        
+        
+    
+
+        <div class="genero">
+        <label for="genero"><b>Sexo: </b></label>
+        <input id="masculino" type="radio" id="masculino" name="genero" value="masculino" required>
+        <label for="masculino">Masculino</label>
+
+        <input id="feminino" type="radio" id="feminino" name="genero" value="feminino" required>
+        <label for="feminino">Feminino</label>
+
+        <input id="outro" type="radio" id="outro" name="genero" value="outro" required>
+        <label for="outro">Outro</label>
+        </div>
+
+        <div class="dataBox">
+            <label for="data-nascimento"><b>Data de Nascimento</b></label>
+            <input id="dataBox" type="date" name="data-nascimento" id="data-nascimento" class="inputUser" required>
+        
+        </div>
+            <button id="btn-cadastro" class="btn-cadastro">Cadastre-se</button>
+        </div>
+
+        <script src="cadastro.js"></script>
+
+
+</body>
+</html>
