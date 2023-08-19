@@ -1,3 +1,8 @@
+
+
+
+
+
 let usuario = document.getElementById('usuario'); 
 let password = document.getElementById('password');
 let email = document.getElementById('email');

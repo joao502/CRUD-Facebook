@@ -29,8 +29,15 @@ body *{
 }
 
 .left-login > h1 {
+    text-align: start;
     color: #1877F2;
+    margin-top: 1px;
 }
+.left-login > h2 {
+    color: white
+    
+}
+
 
 .right-login {
     width: 30vw;
@@ -44,11 +51,11 @@ body *{
 
 .card-login {
     width: 60%;
+    padding: 30px 35px;
     display: flex;
     justify-content: center; /*ajusta no eixo x */
     align-items: center; /*ajusta no eixo y */
     flex-direction: column; /*ajusta um embaixo do outro */
-    padding: 30px 35px;
     background: #2f2841;
     border-radius: 17px;
     box-shadow: 0px 10px 40px #00000056;
@@ -90,7 +97,7 @@ body *{
     color:#1877F2
 }
 .btn-login {
-    width: 190px;
+    width: 180px;
     padding: 16px 0px;
     margin: 25px;
     border: none;

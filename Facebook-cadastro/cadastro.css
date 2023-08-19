@@ -60,13 +60,9 @@ input{
 }
 
 button {
+    align-items: center;
     width: 100%;
-    margin-top: 8px;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 3px;
     color: white;
-    background: #00A400;
     cursor: pointer;
     
 }
