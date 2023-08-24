@@ -1,7 +1,7 @@
 let usuario = document.getElementById('usuario'); 
 let password = document.getElementById('password');
-let btnLogin = document.getElementById('btn-login');
-let btnCadastro = document.getElementById('btn-cadastrar');
+let btnLogin = document.getElementById('Login');
+let btnCadastro = document.getElementById('Cadastre-se');
 
 const usuarioBanco = "JVnine"
 const passwordBanco = "123"
@@ -26,9 +26,3 @@ btnLogin.addEventListener('click',() => {
 })
 
 
-btnCadastro.addEventListener('click',() => {
-
-    window.location.href = "Facebook-cadastro/cadastro.html"
-
-   
-})
