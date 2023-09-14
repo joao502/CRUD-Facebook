@@ -24,6 +24,8 @@ body *{
 }
 
 .left-login {
+    margin: 50px;
+    margin-top: 50px;
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -54,6 +56,7 @@ body *{
 }
 
 .card-login {
+    margin: 70px;
     width: 60%;
     padding: 30px 35px;
     display: flex;
